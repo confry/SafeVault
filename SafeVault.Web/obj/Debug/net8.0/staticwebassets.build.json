@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "CDD/LewW84fp0iy85LGX7znYokah5cVTX5ooI5ztabE=",
+  "Source": "SafeVault.Web",
+  "BasePath": "_content/SafeVault.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SafeVault.Web\\wwwroot",
+      "Source": "SafeVault.Web",
+      "ContentRoot": "D:\\Ejemplos c#\\SafeVault\\SafeVault.Web\\wwwroot\\",
+      "BasePath": "_content/SafeVault.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Ejemplos c#\\SafeVault\\SafeVault.Web\\wwwroot\\auth-demo.js",
+      "SourceId": "SafeVault.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Ejemplos c#\\SafeVault\\SafeVault.Web\\wwwroot\\",
+      "BasePath": "_content/SafeVault.Web",
+      "RelativePath": "auth-demo.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\auth-demo.js"
+    },
+    {
+      "Identity": "D:\\Ejemplos c#\\SafeVault\\SafeVault.Web\\wwwroot\\main.js",
+      "SourceId": "SafeVault.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Ejemplos c#\\SafeVault\\SafeVault.Web\\wwwroot\\",
+      "BasePath": "_content/SafeVault.Web",
+      "RelativePath": "main.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\main.js"
+    },
+    {
+      "Identity": "D:\\Ejemplos c#\\SafeVault\\SafeVault.Web\\wwwroot\\webform.html",
+      "SourceId": "SafeVault.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Ejemplos c#\\SafeVault\\SafeVault.Web\\wwwroot\\",
+      "BasePath": "_content/SafeVault.Web",
+      "RelativePath": "webform.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webform.html"
+    }
+  ]
+}

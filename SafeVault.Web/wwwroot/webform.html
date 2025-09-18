@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>SafeVault</title>
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; object-src 'none';
+                 base-uri 'none'; frame-ancestors 'none'; form-action 'self'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <h1>SafeVault</h1>
+
+  <section>
+    <h2>Registro simple (Actividad 1)</h2>
+    <form id="userForm" action="/submit" method="post" novalidate>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required minlength="3" maxlength="50" pattern="[A-Za-z0-9 _.\-]+">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit">Submit</button>
+    </form>
+    <pre id="result" aria-live="polite"></pre>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Auth Demo (Actividad 2)</h2>
+    <form id="regForm" autocomplete="off">
+      <h3>Register</h3>
+      <input name="username" placeholder="user" required>
+      <input name="email" placeholder="user@example.com" required type="email">
+      <input name="password" placeholder="password (min 8)" required type="password" minlength="8">
+      <select name="role">
+        <option value="User">User</option>
+        <option value="Admin">Admin</option>
+      </select>
+      <button type="submit">Register</button>
+    </form>
+
+    <form id="loginForm" style="margin-top:8px" autocomplete="off">
+      <h3>Login</h3>
+      <input name="username" placeholder="user" required>
+      <input name="password" placeholder="password" required type="password">
+      <button type="submit">Login</button>
+    </form>
+
+    <div style="margin-top:8px">
+      <button id="meBtn">GET /me</button>
+      <button id="adminBtn">GET /admin/dashboard</button>
+      <button id="logoutBtn">POST /auth/logout</button>
+    </div>
+
+    <pre id="authOut" aria-live="polite"></pre>
+  </section>
+
+  <script src="/main.js"></script>
+  <script src="/auth-demo.js"></script>
+</body>
+</html>
