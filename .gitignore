@@ -1,0 +1,14 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+node_modules/
+safedev.db
+SafeVault.Web/safedev.db
+SafeVault.Web/bin/**/safedev.db
+SafeVault.Tests/bin/**/safedev.db
