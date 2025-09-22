@@ -13,4 +13,3 @@ Technologies:
 - C# (.NET)
 - JavaScript / HTML
 
-Note: While developed in C#, the principles of security, session handling, and data protection are directly applicable to PHP/MySQL environments.
